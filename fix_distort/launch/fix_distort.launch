@@ -1,5 +1,0 @@
-<launch>
-    <node name="fix_distort_node" pkg="fix_distort" type="fix_distort_node" output="screen" />
-
-    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find fix_distort)/config/fix_distort.rviz"/>
-</launch>
